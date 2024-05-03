@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+
+    * {
+      text-align: center ;
+      border: 5px solid black;
+      flex-wrap: wrap;
+      align-content: center;
+    }
+    .container > * {
+      flex-basis: 200px;
+      flex-wrap: wrap;
+      align-content: center;
+    }
+
+    .container {
+      color: aliceblue;
+      display: inline-block;
+      flex-wrap: wrap;
+      align-content: center;
+    }
+
+    body > div > div {
+      flex-direction: column;
+      display: inline-block;
+      height: 50px;
+      width: 50px;
+      flex-wrap: wrap;
+      align-content: center;
+    }
+
+    .About {
+      background-color: aqua;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .contact{
+      background-color: blue;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .home{
+      background-color: blueviolet;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .login{
+      background-color: brown;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .mycart{
+      background-color: chartreuse;
+      flex-wrap: wrap;
+      align-content: center;
+    }
+
+    img{
+      height: 400px;
+      width: 600px;
+      flex-wrap: wrap;
+      align-content: center;
+    }
+
+    span{
+      color: blue;
+      size: 2oopx;
+    }
+
+    h1{
+      background-color: rgb(190, 235, 235);
+    }
+    a {
+        color: aqua;
+        border: 2px solid black;
+        display: inline-block;
+    }
+
+  </style>
+</head>
+<body>
+  <marquee behavior="normal" direction="left to right"><h1><span>ZAIN TOORS AND TRAVEL</span></h1></marquee>
+  <div class="coniner">
+    <div class="About">About</div>
+    <a href="../index.html/contact.html"><div class="contact">contact</div></a>
+    <a href="../index.html/contact.html"><div class="home">home</div></a>
+    <a href="../index.html/login.html"><div class="login">login</div></a>
+    <div class="mycart">my cart</div>
+  </div>
+
+  <marquee behavior="normal" direction="left to right"><img src="./cars.png" alt="cars"></marquee>
+  
+</body>
+</html>
